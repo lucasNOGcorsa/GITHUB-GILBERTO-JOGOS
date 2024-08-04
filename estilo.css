@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+Khitan+Small+Script&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 body{
     margin: 0%;
     height: auto;
@@ -45,6 +46,7 @@ h3{
 }
 
 .conteudo-padrao{
+    
     text-align: center;
     font-weight: 5000;
     font-size: 1000;
@@ -59,16 +61,18 @@ h3{
 }
 
 .botao{
-    font-family: Arial, sans-serif;
+    cursor: pointer;
+    font-family: "Roboto Mono", monospace;
     height: 30px;
     width: 400px;
     text-align: center;
     border: solid 2px 50px blue;
-    color: aqua;
-    background-color: rgb(0, 0, 0);
-    box-shadow: 2px 2px white;
+    color: rgb(0, 0, 0);
+    background-color: #8cd6e9;
+    box-shadow: 2px 2px rgb(44, 2, 197);
     border-radius: 20px ;
 
+    
 }
 
 #spaace{ 
@@ -100,7 +104,7 @@ footer{
     text-align: center;
     font-family: Concert One, sans-serif;
     background-color: #41a7eb;
-    height: 200px;
+    height: 20px;
 
 }
 
