@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+Khitan+Small+Script&display=swap');
+body{
+    background: url(img2/jogo-do-tigrinho-fortune-tiger.jpeg) ;
+    
+}
 h1{
     font-family: Josefin Sans, sans-serif;
     font-weight: 400;
@@ -15,18 +19,26 @@ h3{
     font-family: Josefin Sans, sans-serif;
     font-weight: 400;
     font-style: normal;
+    
+}
+
+.top{
+    font-family: Josefin Sans, sans-serif;
+    text-align: center;
 }
 
 .tigre{
     
-    width: 100px;
-    box-shadow: 5px 5px black;
-    border-radius: 20px;
+    width: 70px;
+    border-radius: 8000px;
 }
 
 .pokemon{
     text-align: center;
     border-radius: 20px;
+    width: 50%;
+    
+    
 }
 
 
@@ -45,7 +57,11 @@ h3{
 }
 
 .nog{
-    width: 800px;
-    border-radius: 100px;
+    width: 600px;
+    border-radius: 20%;
     
+}
+
+#new{
+    width: 50px;
 }
