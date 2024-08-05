@@ -54,6 +54,11 @@ h3{
     color: #000000;
 }
 
+.img:hover{
+    transition: 0.5s;
+    transform: translateX(6px) scale(1.1);
+}
+
 .img{
     width: 400px;
     box-shadow: 5px 5px #00c3ff;
@@ -61,14 +66,15 @@ h3{
 }
 
 .botao{
-    cursor: pointer;
+    
     font-family: "Roboto Mono", monospace;
     height: 30px;
     width: 400px;
     text-align: center;
     border: solid 2px 50px blue;
     color: rgb(0, 0, 0);
-    background-color: #8cd6e9;
+    cursor: pointer;
+    background-color: aqua;
     box-shadow: 2px 2px rgb(44, 2, 197);
     border-radius: 20px ;
 
@@ -114,7 +120,23 @@ footer{
 }
 
 .nooog{
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
+
+  .botao:hover{
+    background-color: rgb(42, 159, 209);
+    transition: 0.7s;
+    transform: translateY(2px) scale(1.1);
+  }
+
+  .botao:active {
+background-color: #4547ecf5;
+transform: translateY(4px);
+  }
+
+
+
+  
+

@@ -19,7 +19,7 @@ h3{
 
 .tigre{
     
-    width: 700px;
+    width: 100px;
     box-shadow: 5px 5px black;
     border-radius: 20px;
 }
@@ -29,11 +29,23 @@ h3{
     border-radius: 20px;
 }
 
-.tudao{
-    text-align: center;
-    border-radius: 20px;
-}
+
 
 .camarote{
     text-align: center;
+}
+
+.retro{
+    text-align: center;
+    
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    
+}
+
+.nog{
+    width: 800px;
+    border-radius: 100px;
+    
 }
